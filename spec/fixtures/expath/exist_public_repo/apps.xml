@@ -1,0 +1,2182 @@
+<apps version="4.2.1">
+    <app path="xquery-versioning-module-1.1.4.xar" size="66548">
+        <name>http://exist-db.org/xquery/versioning</name>
+        <title>Versioning Module</title>
+        <abbrev>xquery-versioning-module</abbrev>
+        <version>1.1.4</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+        <author>eXist-db</author>
+        <description>Versioning Module</description>
+        <website>https://www.github.com/exist-db/xquery-versioning-module</website>
+        <license>GNU General Public License, version 1</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="1.1" path="xquery-versioning-module-1.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="1.1.3" path="xquery-versioning-module-1.1.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="1.1.2" path="xquery-versioning-module-1.1.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="1.1.1" path="xquery-versioning-module-1.1.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="1.0" path="xquery-versioning-module-1.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0"/>
+            </version>
+        </other>
+    </app>
+    <app path="jfreechart-0.4.xar" size="0">
+        <name>http://exist-db.org/xquery/jfreechart</name>
+        <title>JFreeChart</title>
+        <abbrev>jfreechart</abbrev>
+        <version>0.4</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <author>Dannes Wessels</author>
+        <author>Leif-Jöran Olsson</author>
+        <description>JFreeChart</description>
+        <website>https://github.com/eXist-db/jfreechart</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="0.3" path="jfreechart-0.3.xar"/>
+            <version version="0.2" path="jfreechart-0.2.xar"/>
+            <version version="0.1" path="jfreechart-0.1.xar"/>
+        </other>
+    </app>
+    <app path="hra-mods-editor-1.1.1.xar" size="0">
+        <author>Dan McCreary</author>
+        <author>Jens Østergaard Petersen</author>
+        <author>Claudius Teodorescu</author>
+        <description>HRA MODS Editor</description>
+        <website>http://exist-db.org</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <name>http://hra.uni-hd.de/apps/mods-editor</name>
+        <title>HRA MODS Editor</title>
+        <abbrev>hra-mods-editor</abbrev>
+        <version>1.1.1</version>
+        <other>
+            <version version="1.1.0" path="hra-mods-editor-1.1.0.xar"/>
+        </other>
+    </app>
+    <app path="expath-datatypes-exist-lib-0.0.1.xar" size="0">
+        <name>http://expath.org/ns/datatypes</name>
+        <title>EXPath Datatypes Module Implementation</title>
+        <abbrev>expath-datatypes-exist-lib</abbrev>
+        <version>0.0.1</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <author>Claudius Teodorescu</author>
+        <description>EXPath Datatypes Module Implementation</description>
+        <website>http://kuberam.ro/specs/expath/datatypes/datatypes.html</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="atomicwiki-0.8.xar" size="2417661">
+        <name>http://exist-db.org/apps/wiki</name>
+        <title>AtomicWiki</title>
+        <abbrev>wiki</abbrev>
+        <version>0.8</version>
+        <author>Wolfgang Meier</author>
+        <author>Denis Richter</author>
+        <author>Sabine Meier</author>
+        <author>Maciek Jerominek</author>
+        <author>Lars Windauer</author>
+        <author>Robert Netzschwitz</author>
+        <description>Redesign of AtomicWiki</description>
+        <website>http://atomic.exist-db.org</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.7" path="atomicwiki-0.7.xar"/>
+            <version version="0.5" path="atomicwiki-0.5.xar"/>
+            <version version="0.4" path="atomicwiki-0.4.xar"/>
+        </other>
+    </app>
+    <app path="mongrel-0.6.2.xar" size="0">
+        <icon>mongrel-0.6.2.png</icon>
+        <name>http://exist-db.org/mongrel</name>
+        <title>Mongrel MongoDB and GridFS driver</title>
+        <abbrev>mongrel</abbrev>
+        <version>0.6.2</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+        <author>Dannes Wessels</author>
+        <description>Mongrel MongoDB and GridFS driver</description>
+        <website>https://github.com/weXsol/Mongrel</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="launcher-1.2.0-prod.xar" size="348297">
+        <name>http://exist-db.org/apps/existdb-launcher</name>
+        <title>Launcher</title>
+        <abbrev>launcher</abbrev>
+        <version>1.2.0</version>
+        <icon>launcher-1.2.0-prod.svg</icon>
+        <author/>
+        <description>existdb-launcher</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="1.2.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>displaying eXist-db logo and version on launchpad</li>
+                <li>updated repo-elements</li>
+            </ul>
+        </change>
+            <change version="1.1.3">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>pointer for app icons</li>
+                <li>cleanup</li>
+            </ul>
+        </change>
+            <change version="1.1.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>added ignores</li>
+                <li>small styling fixes</li>
+            </ul>
+        </change>
+            <change version="1.1.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>removed iron meta</li>
+            </ul>
+        </change>
+            <change version="1.1.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>adapted to new repo-elements 2.0.0</li>
+            </ul>
+        </change>
+            <change version="1.0.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed importPath for icon on header</li>
+            </ul>
+        </change>
+            <change version="1.0.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed dependencies</li>
+            </ul>
+        </change>
+            <change version="1.0.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>allows to start apps from the browser</li>
+                <li>works as standalone app or embedded in dashboard as component</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="1.1.2" path="launcher-1.1.2-prod.xar"/>
+            <version version="1.0.1" path="launcher-1.0.1-prod.xar"/>
+        </other>
+    </app>
+    <app path="fundocs-1.0.0.xar" size="30602">
+        <name>http://exist-db.org/apps/fundocs</name>
+        <title>XQuery Function Documentation</title>
+        <abbrev>fundocs</abbrev>
+        <version>1.0.0</version>
+        <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+        <icon>fundocs-1.0.0.png</icon>
+        <author>Wolfgang Meier</author>
+        <author>Dannes Wessels</author>
+        <description>Browse and search the documentation of registered XQuery function modules.</description>
+        <website>http://exist-db.org</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="1.0.0">
+            <ul>
+                <li>Adopt correct syntax for empty-sequence node test, supported from eXist-db 4.0.0</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.9" path="fundocs-0.9.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="0.8" path="fundocs-0.8.xar"/>
+            <version version="0.7" path="fundocs-0.7.xar"/>
+            <version version="0.6" path="fundocs-0.6.xar"/>
+            <version version="0.5" path="fundocs-0.5.xar"/>
+            <version version="0.4" path="fundocs-0.4.xar"/>
+            <version version="0.3.8" path="fundocs-0.3.8.xar"/>
+            <version version="0.3.7" path="fundocs-0.3.7.xar"/>
+            <version version="0.3.6" path="fundocs-0.3.6.xar"/>
+            <version version="0.3.5" path="fundocs-0.3.5.xar"/>
+            <version version="0.3.4" path="fundocs-0.3.4.xar"/>
+            <version version="0.3.3" path="fundocs-0.3.3.xar"/>
+            <version version="0.3.2" path="fundocs-0.3.2.xar"/>
+            <version version="0.2.2" path="fundocs-0.2.xar"/>
+        </other>
+    </app>
+    <app path="tamboti-1.1.4.xar" size="3224423">
+        <name>http://exist-db.org/apps/tamboti</name>
+        <title>Tamboti Metadata Framework</title>
+        <abbrev>tamboti</abbrev>
+        <version>1.1.4</version>
+        <author>Adam Retter</author>
+        <author>Claudius Teodorescu</author>
+        <author>Dan McCreary</author>
+        <author>Dulip Withanage</author>
+        <author>Jens Østergaard Petersen</author>
+        <author>Wolfgang Meier</author>
+        <description>Tamboti Metadata Framework</description>
+        <website>http://exist-db.org</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="">
+            <ul>
+                <li/>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="1.1.3" path="tamboti-1.1.3.xar"/>
+            <version version="1.1.2" path="tamboti-1.1.2.xar"/>
+            <version version="1.1.1" path="tamboti-1.1.1.xar"/>
+            <version version="1.0" path="tamboti-1.0.xar"/>
+        </other>
+    </app>
+    <app path="bf-XForms-1.4.xar" size="0">
+        <name>http://www.betterfrom.de/apps/xforms</name>
+        <title>betterFORM Demo and Reference XForms</title>
+        <abbrev>bf-XForms</abbrev>
+        <version>1.4</version>
+        <icon>bf-XForms-1.4.png</icon>
+        <author>Tobi Krebs</author>
+        <author>Robert Netzschwitz</author>
+        <author>Jörn Turner</author>
+        <author>Lars Windauer</author>
+        <description>betterFORM Demo and Reference XForms</description>
+        <website>http://www.betterfrom.de</website>
+        <license>BSD License</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="1.3" path="bf-XForms-1.3.xar"/>
+            <version version="1.2" path="bf-XForms-1.2.xar"/>
+        </other>
+    </app>
+    <app path="stanford-corenlp-0.1.xar" size="0">
+        <name>http://exist-db.org/apps/stanford-corenlp</name>
+        <title>Stanford CoreNLP annotation pipeline for eXist-db</title>
+        <abbrev>stanford-corenlp</abbrev>
+        <version>0.1</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.2"/>
+        <author>Leif-Jöran Olsson</author>
+        <description>Integrates the Stanford CoreNLP annotation pipeline library into eXist-db.</description>
+        <website/>
+        <license>GNU-GPLv3</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="shakes-0.3.2.xar" size="0">
+        <name>http://exist-db.org/apps/shakes</name>
+        <title>Shakespeare's Works in TEI</title>
+        <abbrev>shakes</abbrev>
+        <version>0.3.2</version>
+        <icon>shakes-0.3.2.png</icon>
+        <author/>
+        <description>Shakespeare Plays in TEI</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.3.0" path="shakes-0.3.0.xar"/>
+            <version version="0.2" path="shakes-0.2.xar"/>
+            <version version="0.2.2" path="shakes-0.2.2.xar"/>
+        </other>
+    </app>
+    <app path="existdb-login-0.8.0.xar" size="3316328">
+        <name>http://exist-db.org/apps/existdb-login</name>
+        <title>existdb-login</title>
+        <abbrev>existdb-login</abbrev>
+        <version>0.8.0</version>
+        <icon>existdb-login-0.8.0.png</icon>
+        <author>Joern Turner</author>
+        <description>existdb-login</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="expath-pdf-exist-demos-0.0.1.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>EXPath PDF Module Demos</description>
+        <website>http://kuberam.ro/specs/expath/pdf/pdf.html</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <name>http://expath.org/demos/exist/pdf</name>
+        <title>EXPath PDF Module Demos</title>
+        <abbrev>expath-pdf-exist-demos</abbrev>
+        <version>0.0.1</version>
+        <requires processor="http://exist-db.org/"/>
+        <other/>
+    </app>
+    <app path="xsltforms-594.xar" size="0">
+        <name>http://exist-db.org/apps/xsltforms</name>
+        <title>XSLTForms Files</title>
+        <abbrev>xsltforms</abbrev>
+        <version>594</version>
+        <author>Alain Couthures</author>
+        <description>This library contains revision 594 of XSLTForms, from 2014-04-16.</description>
+        <website>http://www.agencexml.com/xsltforms</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="565" path="xsltforms-565.xar"/>
+            <version version="0.1" path="xsltforms-0.1.xar"/>
+        </other>
+    </app>
+    <app path="jfreechart-showcase-0.4.xar" size="0">
+        <name>http://exist-db.org/jfreechart-showcase</name>
+        <title>JFreeChart Showcase</title>
+        <abbrev>jfreechart-showcase</abbrev>
+        <version>0.4</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <author>Dannes Wessels</author>
+        <author>Leif-Jöran Olsson</author>
+        <description>Showcase for the JFreeChart extension</description>
+        <website>https://github.com/eXist-db/jfreechart</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.3" path="jfreechart-showcase-0.3.xar"/>
+            <version version="0.2" path="jfreechart-showcase-0.2.xar"/>
+            <version version="0.1" path="jfreechart-showcase-0.1.xar"/>
+        </other>
+    </app>
+    <app path="packageservice-1.3.3.xar" size="1205190">
+        <name>http://exist-db.org/apps/existdb-packageservice</name>
+        <title>existdb-packageservice</title>
+        <abbrev>packageservice</abbrev>
+        <version>1.3.3</version>
+        <icon>packageservice-1.3.3.png</icon>
+        <author>Joern Turner</author>
+        <description>existdb-packageservice</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="1.3.3">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixing falsy is-newer check again</li>
+            </ul>
+        </change>
+            <change version="1.3.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>removed dependency on console module</li>
+                <li>fixed is-never call to compare the names of the respective app instead of the abbrev. This
+                fails if the apps abbrev changes but the actual app is the same.</li>
+            </ul>
+        </change>
+            <change version="1.3.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed a bug with icon retrieval</li>
+            </ul>
+        </change>
+            <change version="1.3.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>added endpoint for accessing public url</li>
+            </ul>
+        </change>
+            <change version="1.2.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>small fixes to make svg icons work</li>
+            </ul>
+        </change>
+            <change version="1.2.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>changed ordering of items inside of repo-app element</li>
+            </ul>
+        </change>
+            <change version="1.2.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>changed order of subitems in repo-app element (repo-icon always first now for ease of client-side processing)</li>
+                <li>removed slot attributes from repo-icon elements</li>
+            </ul>
+        </change>
+            <change version="1.1.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed request context pathes</li>
+                <li>block packagemanager and packageservice from being removed</li>
+            </ul>
+        </change>
+            <change version="1.0.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>support for svg icons</li>
+                <li>check for newer packages, putting updated packages on top of list</li>
+                <li>fixed html empty elements by using HTML5 serialization</li>
+                <li>showing dummy page in case service is opened directly</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="1.3.2" path="packageservice-1.3.2.xar"/>
+            <version version="1.3.1" path="packageservice-1.3.1.xar"/>
+            <version version="1.3.0" path="packageservice-1.3.0.xar"/>
+            <version version="1.2.2" path="packageservice-1.2.2.xar"/>
+            <version version="1.0.0" path="existdb-packageservice-1.0.0.xar"/>
+            <version version="0.39.0" path="existdb-packageservice-0.39.0.xar"/>
+            <version version="0.37.1" path="existdb-packageservice-0.37.1.xar"/>
+        </other>
+    </app>
+    <app path="expath-ft-client-exist-lib-demos-1.1.2.xar" size="0">
+        <name>http://exist-db.org/ns/expath-ft-client</name>
+        <title>EXPath File Transfer Client Module Demos</title>
+        <abbrev>expath-ft-client-exist-lib-demos</abbrev>
+        <version>1.1.2</version>
+        <requires processor="http://exist-db.org/"/>
+        <author>Claudius Teodorescu</author>
+        <description>EXPath File Transfer Client Module Demos</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="homepage.xar" size="7828102">
+        <name>http://exist-db.org/apps/homepage</name>
+        <title>eXistdb homepage</title>
+        <abbrev>homepage</abbrev>
+        <version>4.1.0</version>
+        <author>Joern Turner</author>
+        <author>Lars Windauer</author>
+        <author>Tobi Krebs</author>
+        <author>Wolfgang Meier</author>
+        <author>Adam Retter</author>
+        <author>Dannes Wessels</author>
+        <author>Leif-Jöran Olsson</author>
+        <description>eXistdb homepage</description>
+        <website>http://exist-db.org/exist/apps/homepage/index.html</website>
+        <license>GNU-GPLv3</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="tei-publisher-docx-1.0.0.xar" size="96267741">
+        <name>http://teipublisher.com/docx2tei</name>
+        <title>Transformations from docx to TEI</title>
+        <abbrev>tei-publisher-docx</abbrev>
+        <version>1.0.0</version>
+        <requires processor="http://exist-db.org" semver-min="4.1.0"/>
+        <author/>
+        <description>Transformations from docx to TEI</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="matumi-0.5.xar" size="0">
+        <name>http://exist-db.org/apps/matumi</name>
+        <title>Matumi: Browsing Multi-Lingual Encyclopedias</title>
+        <abbrev>matumi</abbrev>
+        <version>0.5</version>
+        <author>Thomas White</author>
+        <author>Wolfgang Meier</author>
+        <description>Matumi: Browsing Multi-Lingual Encyclopedias</description>
+        <website>http://exist-db.org</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.4" path="matumi-0.4.xar"/>
+            <version version="0.3" path="matumi-0.3.xar"/>
+        </other>
+    </app>
+    <app path="tei-publisher-lib-2.2.0.xar" size="0">
+        <name>http://existsolutions.com/apps/tei-publisher-lib</name>
+        <title>TEI Publisher: Processing Model Libraries</title>
+        <abbrev>tei-publisher-lib</abbrev>
+        <version>2.2.0</version>
+        <requires processor="http://exist-db.org" semver-min="3.6.0"/>
+        <icon>tei-publisher-lib-2.2.0.png</icon>
+        <author>Wolfgang Meier</author>
+        <description>TEI Publisher: Processing Model Libraries</description>
+        <website>http://gitlab.exist-db.org/tei-publisher/tei-publisher-lib</website>
+        <license>GPLv3</license>
+        <type>library</type>
+        <note>Generated apps may fail after updating. Run .../myapp/modules/lib/regenerate.xql in browser or eXide once
+        to update your ODDs.</note>
+        <changelog>
+            <change version="2.1.0">
+            <ul>
+                <li>Renditions defined in tei header were no longer applied</li>
+                <li>Support definition of default elementSpec for elements and text nodes</li>
+                <li>FO output: make sure to not produce an empty destination for internal and external links</li>
+                <li>Fix internal references for LaTeX output</li>
+                <li>Apply class to line breaks so they can be stiled via CSS</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="2.1.0" path="tei-publisher-lib-2.1.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.3" path="tei-publisher-lib-2.0.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.2" path="tei-publisher-lib-2.0.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.0" path="tei-publisher-lib-2.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+        </other>
+    </app>
+    <app path="xqjson-0.2.1.xar" size="0">
+        <name>http://xqilla.sourceforge.net/pkg/xqjson</name>
+        <title>JSON Parser and Serializer for XQuery</title>
+        <abbrev>xqjson</abbrev>
+        <version>0.2.1</version>
+        <icon>xqjson-0.2.1.png</icon>
+        <author>John Snelson</author>
+        <description>An XQuery module with functions for parsing and serializing JSON.</description>
+        <website>https://github.com/joewiz/xqjson</website>
+        <license>Apache License, Version 2.0</license>
+        <type>library</type>
+        <changelog>
+            <change version="0.2.1">
+            <ul>
+                <li>With <a href="https://www.w3.org/TR/xpath-functions-31/#json">XQuery 3.1's robust native support of JSON parsing and serialization</a> and eXist 3.0's support of XQuery 3.1, this package is no longer being maintained. Please upgrade to eXist 3.x and migrate your code to use XQuery 3.1 instead of this package.</li>
+            </ul>
+        </change>
+            <change version="0.2.0">
+            <ul>
+                <li>Fixed bugs, added a comprehensive test suite, and added examples to the README.</li>
+            </ul>
+        </change>
+            <change version="0.1.6">
+            <ul>
+                <li>Fixed bugs where extra commas appeared in serialized JSON</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.2.0" path="xqjson-0.2.0.xar"/>
+            <version version="0.1.6" path="xqjson-0.1.6.xar"/>
+            <version version="0.1.5" path="xqjson-0.1.5.xar"/>
+            <version version="0.1.4" path="xqjson-0.1.4.xar"/>
+        </other>
+    </app>
+    <app path="cql-module-1.2.1.xar" size="0">
+        <name>http://humanistika.org/ns/exist/module/cql</name>
+        <title>CQL Module</title>
+        <abbrev>cql-module</abbrev>
+        <version>1.2.1</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.0"/>
+        <author>Belgrade Center for Digital Humanities</author>
+        <description>CQL Module</description>
+        <website>https://github.com/BCDH/cql-module</website>
+        <license>GNU General Public License, version 2</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="1.2" path="cql-module-1.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0"/>
+            </version>
+        </other>
+    </app>
+    <app path="messaging-replication-0.30.4.xar" size="0">
+        <author>Dannes Wessels</author>
+        <description>Messaging and Replication</description>
+        <website>https://github.com/eXist-db/messaging-replication</website>
+        <license>GNU Lesser General Public License, version 2.1</license>
+        <type>application</type>
+        <note>When upgrading: please uninstall all previous versions first and restart eXist-db.</note>
+        <changelog/>
+        <icon>messaging-replication-0.30.4.png</icon>
+        <name>http://exist-db.org/messaging-replication</name>
+        <title>Messaging and Replication</title>
+        <abbrev>jms</abbrev>
+        <version>0.30.4</version>
+        <requires processor="http://exist-db.org" semver-min="3.6.1"/>
+        <other>
+            <version version="0.30.2" path="messaging-replication-0.30.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+        </other>
+    </app>
+    <app path="dh2016-0.1.xar" size="0">
+        <name>http://exist-db.org/apps/dh2016-eXistdb</name>
+        <title>DH 2016 Workshop Data</title>
+        <abbrev>dh2016</abbrev>
+        <version>0.1</version>
+        <author/>
+        <description>Simple app containing sample data for the DH2016 eXistdb workshop</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="expath-ft-client-exist-lib-1.1.6.xar" size="0">
+        <name>http://expath.org/ns/ft-client</name>
+        <title>EXPath File Transfer Client Module Implementation</title>
+        <abbrev>expath-ft-client-exist-lib</abbrev>
+        <version>1.1.6</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <author>Claudius Teodorescu</author>
+        <description>EXPath File Transfer Client Module Implementation</description>
+        <website>http://kuberam.ro/specs/expath/ft-client/ft-client.html</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="1.1.5" path="expath-ft-client-exist-lib-1.1.5.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="1.1.4" path="expath-ft-client-exist-lib-1.1.4.xar">
+                <requires processor="http://exist-db.org"/>
+            </version>
+        </other>
+    </app>
+    <app path="shared-resources-0.7.0.xar" size="2121495">
+        <name>http://exist-db.org/apps/shared</name>
+        <title>Shared Resources: jquery, dojo, ace ...</title>
+        <abbrev>shared</abbrev>
+        <version>0.7.0</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+        <author>Wolfgang Meier</author>
+        <description>Shared resources used by other apps</description>
+        <website>https://github.com/eXist-db/shared-resources</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog>
+            <change version="0.3.5">
+            <ul>
+                <li>Move site-wide CSS to shared-resources. Modularize design using less.</li>
+                <li>Added bootstrap</li>
+                <li>Bug fixes and minor improvements in templating</li>
+                <li>Updated ace</li>
+            </ul>
+        </change>
+            <change version="0.3.6">
+            <ul>
+                <li>Small syntax error in templates.xql</li>
+            </ul>
+        </change>
+            <change version="0.3.7">
+            <ul>
+                <li>Externalised parameter value resolution in templating. Now useable outside XQuery URL Rewrite context.</li>
+                <li>Updated ace</li>
+            </ul>
+        </change>
+            <change version="0.3.8">
+            <ul>
+                <li>Fixed permission checks in dbutil module: functions should not fail if user lacks the permission to browse into a collection.</li>
+                <li>Updated ace</li>
+                <li>Fixed templates:surround to report a proper error if a template could not be found.</li>
+            </ul>
+        </change>
+            <change version="0.3.9">
+            <ul>
+                <li>No release notes prepared for this version.</li>
+            </ul>
+        </change>
+            <change version="0.4.0">
+            <ul>
+                <li>No release notes prepared for this version.</li>
+            </ul>
+        </change>
+            <change version="0.4.1">
+            <ul>
+                <li>Fixed templates:each to not output empty element.</li>
+                <li>Improved HTML output by stripping data-template attributes unless configuration option "debug" is set to true.</li>
+                <li>Aligned limit of template:resolve to the max arity number in templates:call-with-args.</li>
+                <li>Fixed for erroneous return type from two functions in apputil module affecting package installation.</li>
+            </ul>
+        </change>
+            <change version="0.4.2">
+            <ul>
+                <li>Minor release to restore package/@abbrev value to prevent problems on older systems querying public-repo.</li>
+            </ul>
+        </change>
+            <change version="0.5.0">
+            <ul>
+                <li>New: Template functions can now accept an arbitrary number of parameters, previously limited to 15 - <a href="https://github.com/eXist-db/shared-resources/pull/29">#29</a>
+                    </li>
+                <li>New: Templates can be loaded from HTTP and HTTPS URLs - <a href="https://github.com/eXist-db/shared-resources/pull/24">#24</a>
+                    </li>
+                <li>Fixed: Build problems - <a href="https://github.com/eXist-db/shared-resources/pull/28">#28</a>
+                    </li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.6.0" path="shared-resources-0.6.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="0.5.0" path="shared-resources-0.5.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="0.4.2" path="shared-resources-0.4.2.xar"/>
+            <version version="0.4.1" path="shared-resources-0.4.1.xar"/>
+            <version version="0.4.0" path="shared-resources-0.4.0.xar"/>
+            <version version="0.3.8" path="shared-resources-0.3.8.xar"/>
+            <version version="0.3.7" path="shared-resources-0.3.7.xar"/>
+            <version version="0.3.6" path="shared-resources-0.3.6.xar"/>
+            <version version="0.3.5" path="shared-resources-0.3.5.xar"/>
+            <version version="0.3.4" path="shared-resources-0.3.4.xar"/>
+            <version version="0.3.3" path="shared-resources-0.3.3.xar"/>
+            <version version="0.3.1" path="shared-resources-0.3.1.xar"/>
+            <version version="0.3.0" path="shared-resources-0.3.0.xar"/>
+            <version version="0.2.8" path="shared-resources-0.2.8.xar"/>
+            <version version="0.2.7" path="shared-resources-0.2.7.xar"/>
+            <version version="0.2.6" path="shared-resources-0.2.6.xar"/>
+            <version version="0.2.5" path="shared-resources-0.2.5.xar"/>
+            <version version="0.2.4" path="shared-resources-0.2.4.xar"/>
+            <version version="0.2.3" path="shared-resources-0.2.3.xar"/>
+        </other>
+    </app>
+    <app path="expath-ft-client-exist-demos-1.1.4.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>EXPath File Transfer Client Module Demos</description>
+        <website>http://kuberam.ro/specs/expath/ft-client/ft-client.html</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <name>http://expath.org/demos/exist/ft-client</name>
+        <title>EXPath File Transfer Client Module Demos</title>
+        <abbrev>expath-ft-client-exist-demos</abbrev>
+        <version>1.1.4</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <other/>
+    </app>
+    <app path="xsltforms-demo-0.1.5.xar" size="0">
+        <name>http://exist-db.org/apps/xsltforms-demo</name>
+        <title>XSLTForms Demo</title>
+        <abbrev>xsltforms-demo</abbrev>
+        <version>0.1.5</version>
+        <author>Alain Couthures</author>
+        <author>Jens Østergaard Petersen</author>
+        <description>A collection of examples illustrating the use of XForms with client-side XSLTForms</description>
+        <website>http://www.agencexml.com/xsltforms</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.1.3" path="xsltforms-demo-0.1.3.xar"/>
+        </other>
+    </app>
+    <app path="packagemanager-4.6.0.xar" size="259971">
+        <name>http://exist-db.org/apps/packagemanager</name>
+        <title>eXistdb Packagemanager</title>
+        <abbrev>packagemanager</abbrev>
+        <version>4.6.0</version>
+        <icon>packagemanager-4.6.0.svg</icon>
+        <author>Joern Turner</author>
+        <description>eXistdb Package Manager</description>
+        <website>https://github.com/eXist-db/existdb-packagemanager</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="4.6.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixes issue #7 - info button does not work on webkit browsers</li>
+                <li>added components for meta-information elements (repo-elements)</li>
+                <li>reinstated update badge</li>
+            </ul>
+        </change>
+            <change version="4.5.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>layout fixes</li>
+                <li>removed paper-badge elements</li>
+                <li>controller fixes and refinements</li>
+            </ul>
+        </change>
+            <change version="4.5.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>using central toast now for messaging</li>
+                <li>error handling for install errors</li>
+                <li>new layout using tabs</li>
+                <li>responsiveness improvements</li>
+                <li>new app icon</li>
+                <li>logout configurable - can be removed from menu</li>
+            </ul>
+        </change>
+            <change version="4.4.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>re-added iron-meta (used by other components)</li>
+            </ul>
+        </change>
+            <change version="4.4.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>cleaned up iron-meta</li>
+                <li>responsiveness improvements</li>
+            </ul>
+        </change>
+            <change version="4.3.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>migrated to use repo-elements</li>
+                <li>layout refinements for readability and responsiveness</li>
+            </ul>
+        </change>
+            <change version="4.2.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed tagging</li>
+            </ul>
+        </change>
+            <change version="4.2.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>preventing PackageManager and PackageService from being de-installed.</li>
+            </ul>
+        </change>
+            <change version="4.0.5">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>added error handling for 200 responses</li>
+                <li>minor refinements to login</li>
+            </ul>
+        </change>
+            <change version="4.0.4">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>showing toast message on local page when updates are available</li>
+                <li>progressbar for remove action</li>
+                <li>defined dependency on existdb-packageservice 1.0.0</li>
+                <li>fixed bug: apps opening 2 times for a single click on icon or title</li>
+            </ul>
+        </change>
+            <change version="4.0.3">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>styling of updated packages</li>
+            </ul>
+        </change>
+            <change version="4.0.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>completed ported to Polymer 2 class-style components</li>
+                <li>keyboard shortcuts</li>
+                <li>updated vaadin-upload component</li>
+            </ul>
+        </change>
+            <change version="3.11.4">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed version number in package.json</li>
+            </ul>
+        </change>
+            <change version="3.11.3">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed svg icon styling</li>
+                <li>added missing version number to bower.json</li>
+            </ul>
+        </change>
+            <change version="3.11.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>added changelog</li>
+            </ul>
+        </change>
+            <change version="3.11.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>removed unstable key binding for up and down arrow</li>
+                <li>replaced neon-animated-pages with iron-pages for stability</li>
+                <li>detail layout enhancements</li>
+                <li>fixed missing activation of packages when clicking app title for installed apps</li>
+            </ul>
+        </change>
+            <change version="3.9.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>ported to Polymer 2 hybrid mode</li>
+                <li>removed tab navigation. Replaced by '+' button</li>
+                <li>keyboard shortcut support</li>
+                <li>improved filtering</li>
+                <li>moved upload to top of screen for better accessibility</li>
+                <li>improved keyboard navigation of packages</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="4.5.0" path="packagemanager-4.5.0.xar"/>
+            <version version="4.0.5" path="packagemanager-4.0.5.xar"/>
+            <version version="4.0.4" path="packagemanager-4.0.4.xar"/>
+            <version version="3.11.2" path="packagemanager-3.11.2.xar"/>
+            <version version="3.11.1" path="packagemanager-3.11.1.xar"/>
+            <version version="3.9.0" path="packagemanager-3.9.0.xar"/>
+            <version version="1.5.1" path="packagemanager-1.5.1-prod.xar"/>
+            <version version="1.4.0" path="packagemanager-1.4.0-prod.xar"/>
+        </other>
+    </app>
+    <app path="xquery-xproc-xmlcalabash-module-0.10-SNAPSHOT.xar" size="0">
+        <name>http://exist-db.org/xquery/xproc/xmlcalabash</name>
+        <title>XProc Calabash Module</title>
+        <abbrev>xquery-xproc-xmlcalabash-module</abbrev>
+        <version>0.10-SNAPSHOT</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+        <author>eXist-db</author>
+        <description>XProc Calabash Module</description>
+        <website>https://www.github.com/exist-db/xquery-xproc-xmlcalabash-module</website>
+        <license>GNU Lesser General Public License, version 3</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="0.10.0" path="xquery-xproc-xmlcalabash-module-0.10.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="0.9" path="xquery-xproc-xmlcalabash-module-0.9.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+        </other>
+    </app>
+    <app path="dashboard-1.1.0.xar" size="573500">
+        <name>http://exist-db.org/apps/dashboard</name>
+        <title>Dashboard</title>
+        <abbrev>dashboard</abbrev>
+        <version>1.1.0</version>
+        <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+        <icon>dashboard-1.1.0.png</icon>
+        <author>Joern Turner</author>
+        <author>Wolfgang Meier</author>
+        <description>eXist-db Dashboard</description>
+        <website>https://github.com/eXist-db/dashboard</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <note>If you are updating the dashboard, you may need to bypass the browser's cache (and cookies). On most browsers, hold Ctrl (IE) or Shift (Firefox, Safari, Chrome) and click the reload button.</note>
+        <changelog>
+            <change version="0.3.0">
+            <ul>
+                <li>Package Manager: Display change log for updated packages and show size of installable package</li>
+                <li>Small improvements to backup plugin</li>
+            </ul>
+        </change>
+            <change version="0.3.1">
+            <ul>
+                <li>Fixed too dark background on IE</li>
+            </ul>
+        </change>
+            <change version="0.3.1">
+            <ul>
+                <li>Fixed xhr issues in dashboard-1.7.js</li>
+            </ul>
+        </change>
+            <change version="0.3.3">
+            <ul>
+                <li>Fixed and Enabled the UserManager plugin</li>
+            </ul>
+        </change>
+            <change version="0.3.5">
+            <ul>
+                <li>Small fixes</li>
+            </ul>
+        </change>
+            <change version="0.3.6">
+            <ul>
+                <li>Allow an XQuery to be killed from scheduler plugin</li>
+                <li>Package manager: move packages for which updates are available to the top of the package list.</li>
+            </ul>
+        </change>
+            <change version="0.3.8">
+            <ul>
+                <li>Read/Write/Execute and SetUID, SetGID and Sticky bits can be set/unset from Collection Browser</li>
+                <li>Display ACL ACEs Collection Browser</li>
+            </ul>
+        </change>
+            <change version="0.4.1">
+            <ul>
+                <li>Release for eXist-db 2.2</li>
+                <li>Removal of link to old web admin</li>
+            </ul>
+        </change>
+            <change version="0.4.8">
+            <ul>
+                <li>Adopt correct syntax for empty-sequence node test, supported from eXist-db 4.0.0</li>
+            </ul>
+        </change>
+            <change version="0.4.9">
+            <ul>
+                <li>Remove user manager: there's now a separate package, which actually works</li>
+                <li>Remove scheduler: its functionality is already available in monex</li>
+            </ul>
+        </change>
+            <change version="0.4.10">
+            <ul>
+                <li>Hotfix release to enable users of eXist 3.6.1-or-lower to upgrade to 4.0.0</li>
+            </ul>
+        </change>
+            <change version="1.0.0">
+            <ul>
+                <li>New major version to signal break in compatibility with pre-eXist 4.0.0 Dashboard</li>
+            </ul>
+        </change>
+            <change version="1.0.1">
+            <ul>
+                <li>Fixed: Removed "Remember me" checkbox from login dialog to workaround problem - <a href="https://github.com/eXist-db/dashboard/pull/64">#64</a>
+                    </li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="1.0.1" path="dashboard-1.0.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="1.0.0" path="dashboard-1.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.4.10" path="dashboard-0.4.10.xar">
+                <requires processor="http://exist-db.org" semver-max="3.6.1"/>
+            </version>
+            <version version="0.4.9" path="dashboard-0.4.9.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.4.7" path="dashboard-0.4.7.xar"/>
+            <version version="0.4.6" path="dashboard-0.4.6.xar"/>
+            <version version="0.4.5" path="dashboard-0.4.5.xar"/>
+            <version version="0.4.4" path="dashboard-0.4.4.xar"/>
+            <version version="0.4.3" path="dashboard-0.4.3.xar"/>
+            <version version="0.4.2" path="dashboard-0.4.2.xar"/>
+            <version version="0.4.1" path="dashboard-0.4.1.xar"/>
+            <version version="0.4.0" path="dashboard-0.4.0.xar"/>
+            <version version="0.3.9" path="dashboard-0.3.9.xar"/>
+            <version version="0.3.7" path="dashboard-0.3.7.xar"/>
+            <version version="0.3.5" path="dashboard-0.3.5.xar"/>
+            <version version="0.3.4" path="dashboard-0.3.4.xar"/>
+            <version version="0.3.2" path="dashboard-0.3.2.xar"/>
+            <version version="0.3.1" path="dashboard-0.3.1.xar"/>
+            <version version="0.3.0" path="dashboard-0.3.0.xar"/>
+            <version version="0.2.9" path="dashboard-0.2.9.xar"/>
+            <version version="0.2.8" path="dashboard-0.2.8.xar"/>
+            <version version="0.2.7" path="dashboard-0.2.7.xar"/>
+            <version version="0.2.6" path="dashboard-0.2.6.xar"/>
+        </other>
+    </app>
+    <app path="expath-crypto-exist-lib-0.3.3.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>EXPath Cryptographic Module Implementation</description>
+        <website>http://kuberam.ro/specs/expath/crypto/crypto.html</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <name>http://expath.org/lib/crypto</name>
+        <title>EXPath Cryptographic Module Implementation</title>
+        <abbrev>expath-crypto-exist-lib</abbrev>
+        <version>0.3.3</version>
+        <requires processor="http://exist-db.org/"/>
+        <other>
+            <version version="0.3.2" path="expath-crypto-exist-lib-0.3.2.xar">
+                <requires processor="http://exist-db.org/"/>
+            </version>
+            <version version="0.3.0" path="expath-crypto-exist-lib-0.3.0.xar">
+                <requires processor="http://exist-db.org/"/>
+            </version>
+        </other>
+    </app>
+    <app path="public-repo-0.6.0.xar" size="116845">
+        <name>http://exist-db.org/apps/public-repo</name>
+        <title>eXist-db Public Application Repository</title>
+        <abbrev>public-repo</abbrev>
+        <version>0.6.0</version>
+        <author>Wolfgang Meier</author>
+        <description>Scripts to maintain eXist's public application repository.</description>
+        <website>https://github.com/eXist-db/public-xar-repo</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="0.6.0">
+            <ul>
+                <li>Allow processor version to end with a label, for compatibility with eXist 3.1.0+ semver scheme.</li>
+                <li>Fixed links in atom feed by including min-version parameter.</li>
+            </ul>
+        </change>
+            <change version="0.5.4">
+            <ul>
+                <li>Fixed error affecting view of packages requiring different processor versions.</li>
+            </ul>
+        </change>
+            <change version="0.5.3">
+            <ul>
+                <li>Fixed issue with version number data type processing.</li>
+            </ul>
+        </change>
+            <change version="0.5.2">
+            <ul>
+                <li>New admin section to upload packages and publish them.</li>
+            </ul>
+        </change>
+            <change version="0.5.1">
+            <ul>
+                <li>Fixed auto-upload.xql to consider only the xar type files.</li>
+            </ul>
+        </change>
+            <change version="0.5.0">
+            <ul>
+                <li>Added support for automatic updating of apps.xml in case one adds, updates, or deletes a xar file from public folder.</li>
+            </ul>
+        </change>
+            <change version="0.4.2">
+            <ul>
+                <li>Updated atom feed entries to link to each app's html page</li>
+            </ul>
+        </change>
+            <change version="0.4">
+            <ul>
+                <li>Changed homepage display from grid to list, with separate detailed view for each
+                    package</li>
+                <li>Added display of change log to atom feed and detailed web view</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.5.2" path="public-repo-0.5.2.xar"/>
+            <version version="0.5.1" path="public-repo-0.5.1.xar"/>
+            <version version="0.5.0" path="public-repo-0.5.0.xar"/>
+            <version version="0.4" path="public-repo-0.4.xar"/>
+            <version version="0.3" path="public-repo-0.3.xar"/>
+        </other>
+    </app>
+    <app path="demo-0.4.1.xar" size="509756">
+        <name>http://exist-db.org/apps/demo</name>
+        <title>eXist-db Demo Apps</title>
+        <abbrev>demo</abbrev>
+        <version>0.4.1</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+        <icon>demo-0.4.1.png</icon>
+        <author>Wolfgang Meier</author>
+        <description>Various small demo applications.</description>
+        <website>https://github.com/eXist-db/demo-apps</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="0.4.0">
+            <ul>
+                <li>Improved the display of search results in the content extraction demo.</li>
+                <li>Fixed RESTXQ and AngularJS demo.</li>
+                <li>Removed dependency on JSONXQ library, replaced with XQuery 3.1 JSON facility.</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.4.0" path="demo-0.4.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.4"/>
+            </version>
+            <version version="0.3.3" path="demo-0.3.3.xar">
+                <requires processor="http://exist-db.org" semver-min="2.2.1"/>
+            </version>
+            <version version="0.3.2" path="demo-0.3.2.xar"/>
+            <version version="0.3.1" path="demo-0.3.1.xar"/>
+            <version version="0.3.0" path="demo-0.3.0.xar"/>
+            <version version="0.2.9" path="demo-0.2.9.xar"/>
+            <version version="0.2.8" path="demo-0.2.8.xar"/>
+            <version version="0.2.7" path="demo-0.2.7.xar"/>
+            <version version="0.2.6" path="demo-0.2.6.xar"/>
+            <version version="0.2.5" path="demo-0.2.5.xar"/>
+            <version version="0.2.4" path="demo-0.2.4.xar"/>
+            <version version="0.2.3" path="demo-0.2.3.xar"/>
+            <version version="0.2.2" path="demo-0.2.2.xar"/>
+        </other>
+    </app>
+    <app path="exist-mallet-topic-modeling-0.3.xar" size="0">
+        <name>http://exist-db.org/apps/mallet-topic-modeling</name>
+        <title>Mallet Topic Modeling for eXist-db</title>
+        <abbrev>mallet-topic-modeling</abbrev>
+        <version>0.3</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.2"/>
+        <author>Leif-Jöran Olsson</author>
+        <description>Integrates the Mallet Topc Modeling library into eXist-db.</description>
+        <website/>
+        <license>GNU-LGPLv3</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.1" path="exist-mallet-topic-modeling-0.1.xar"/>
+        </other>
+    </app>
+    <app path="tei-pm-1.1.2.xar" size="0">
+        <name>http://www.tei-c.org/tei-simple</name>
+        <title>TEI Processing Model Toolbox</title>
+        <abbrev>tei-pm</abbrev>
+        <version>1.1.2</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <author>Wolfgang Meier</author>
+        <description>TEI Processing Model Toolbox (superseded by TEI Publisher)</description>
+        <website>http://showcases.exist-db.org/exist/apps/tei-pm</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="1.1.2">
+            <ul>
+                <li>NOTE: TEI Processing Model Toolbox has been superseded by TEI Publisher</li>
+                <li>This is a minor maintenance release to allow applications to migrate to TEI Publisher</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="1.1.1" path="tei-pm-1.1.1.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="1.1.0" path="tei-pm-1.1.0.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="1.0" path="tei-simple-1.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="1.0.1" path="tei-simple-1.0.1.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="0.6" path="tei-simple-0.6.0.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="0.5" path="tei-simple-0.5.0.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="0.4" path="tei-simple-0.4.0.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+        </other>
+    </app>
+    <app path="teian-2.4.5.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>teian, xml annotator</description>
+        <website>https://cdn.rawgit.com/claudius108/teian/master/documentation/index.html</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <name>http://kuberam.ro/teian/</name>
+        <title>teian, xml annotator</title>
+        <abbrev>teian</abbrev>
+        <version>2.4.5</version>
+        <other>
+            <version version="2.4.3" path="teian-2.4.3.xar"/>
+            <version version="2.4.2" path="teian-2.4.2.xar"/>
+            <version version="2.4.0" path="teian-2.4.0.xar"/>
+        </other>
+    </app>
+    <app path="exist-tei-graphing-0.1-SNAPSHOT.xar" size="0">
+        <name>http://exist-db.org/apps/tei-graphing</name>
+        <title>(TEI) Graphing for eXist-db</title>
+        <abbrev>tei-graphing</abbrev>
+        <version>0.1-SNAPSHOT</version>
+        <author>Leif-Jöran Olsson</author>
+        <description>(TEI) Graphing for eXist-db using libraries for dynamic visualization.</description>
+        <website/>
+        <license>GNU-GPLv3</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.2-SNAPSHOT" path="exist-tei-graphing-0.2-SNAPSHOT.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="0.2" path="exist-tei-graphing-0.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2"/>
+            </version>
+        </other>
+    </app>
+    <app path="eXide-2.4.6.xar" size="1480687">
+        <name>http://exist-db.org/apps/eXide</name>
+        <title>eXide - XQuery IDE</title>
+        <abbrev>eXide</abbrev>
+        <version>2.4.6</version>
+        <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+        <icon>eXide-2.4.6.png</icon>
+        <author>Wolfgang Meier</author>
+        <description>eXide - a web based XQuery IDE</description>
+        <website>http://exist-db.org/exist/apps/eXide/docs/doc.html</website>
+        <license>GNU-GPLv3</license>
+        <type>application</type>
+        <changelog>
+            <change version="2.4.6">
+            <ul>
+                <li>Fixed: Deletion of resources via DB Manager - <a href="https://github.com/eXist-db/eXide/pull/193">#193</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="2.4.5">
+            <ul>
+                <li>Fixed: Names of files uploaded via "Upload Directory" dialog included directory name and slash - <a href="https://github.com/eXist-db/eXide/pull/186">#186</a>
+                    </li>
+                <li>Fixed: Resources with certain characters could not be deleted via DB Manager - <a href="https://github.com/eXist-db/eXide/pull/187">#187</a>
+                    </li>
+                <li>Fixed: The app creation wizard could change permissions on collections above it - <a href="https://github.com/eXist-db/eXide/pull/188">#188</a>
+                    </li>
+                <li>Fixed: Link to emmet.js library included in the shared-resources app was incorrect - <a href="https://github.com/eXist-db/eXide/pull/189">#189</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="2.4.4">
+            <ul>
+                <li>Fixed: Handling of special characters in resource names - <a href="https://github.com/eXist-db/eXide/pull/183">#183</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="2.4.3">
+            <ul>
+                <li>New: Support "Snapshot" as a status in the app generator - <a href="https://github.com/eXist-db/eXide/pull/178">#178</a>
+                    </li>
+                <li>New: Do not suggest deprecated functions - <a href="https://github.com/eXist-db/eXide/issues/179">#179</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="2.4.2">
+            <ul>
+                <li>Updated: Links to eXide's GitHub repository - <a href="https://github.com/eXist-db/eXide/issues/144">#144</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="2.4.1">
+            <ul>
+                <li>Fixed: Restored the SetGID, SetUID, and sticky bit checkboxes in File &gt; Manage permissions dialog</li>
+            </ul>
+        </change>
+            <change version="2.4.0">
+            <ul>
+                <li>New: Support all native serialization methods in displaying query results, including eXist 3.3.0's new adaptive serialization</li>
+                <li>New: Add a toggle for indentation of query results</li>
+            </ul>
+        </change>
+            <change version="2.3.4">
+            <ul>
+                <li>Fix download app to descend into collections</li>
+            </ul>
+        </change>
+            <change version="2.3.3">
+            <ul>
+                <li>Fix serialization of query results with strings containing escaped characters</li>
+                <li>Fix the column that "Navigate" &gt; "Go to line" goes to</li>
+                <li>Improve download app to prevent expansion of XIncludes</li>
+                <li>Improve error reported when trying to run tests not stored in the database</li>
+                <li>Removed package's semver-max to ensure compatibility with all eXist 3.x releases</li>
+            </ul>
+        </change>
+            <change version="2.3.2">
+            <ul>
+                <li>Raise eXist dependency restrictions to allow compatibility with eXist 3.1</li>
+            </ul>
+        </change>
+            <change version="2.3.1">
+            <ul>
+                <li>Add Adaptive Output mode handling for maps with a sequence of items as a value</li>
+            </ul>
+        </change>
+            <change version="2.3.0">
+            <ul>
+                <li>New adaptive and JSON output options for query results</li>
+                <li>New checkbox to toggle highlighting of index hits</li>
+                <li>Fix function doc lookup</li>
+                <li>Various bug fixes</li>
+            </ul>
+        </change>
+            <change version="2.2.0">
+            <ul>
+                <li>Keyboard shortcuts for copy and paste in file dialog</li>
+                <li>Type in file dialog to quickly jump to file</li>
+            </ul>
+        </change>
+            <change version="2.1.2">
+            <ul>
+                <li>Fix scrolling of editor tabs if they do not fit on screen</li>
+                <li>Various small bug fixes</li>
+            </ul>
+        </change>
+            <change version="2.1.1">
+            <ul>
+                <li>New collection tree view</li>
+                <li>Fix inline help for functions</li>
+                <li>When uploading many files, don't show them all to avoid browser crash</li>
+                <li>Fix display of query results: skip unnecessary namespace declarations</li>
+            </ul>
+        </change>
+            <change version="2.1.0">
+            <ul>
+                <li>Fix word-left/word-right navigation</li>
+                <li>Add menu item to reset editor window layout to defaults</li>
+                <li>Keyboard shortcuts should now work in entire window, not just editor</li>
+                <li>Add shortcuts Alt-1 to 9 (windows, linux) and Ctrl-1 to 9 (mac) to quickly switch between tabs</li>
+                <li>Tabs can now be reordered with drag and drop</li>
+                <li>Added "Close-All" menu item</li>
+            </ul>
+        </change>
+            <change version="2.0.9">
+            <ul>
+                <li>Remove size limits for documents which can be validated by the editor. Live error messages
+                will be shown even for large documents/XQueries.</li>
+                <li>Fixed navigation in edit history.</li>
+            </ul>
+        </change>
+            <change version="2.0.8">
+            <ul>
+                <li>Live reload: automatically reload the browser window running the app if resource is saved in editor.</li>
+                <li>Drag a file on the editor to open its contents in a new tab</li>
+                <li>Directory Uploads (Chrome only)</li>
+                <li>Fixed less support</li>
+                <li>Updated UI: now based on CSS3 flexbox</li>
+                <li>Properly restore cursor position for each editor when reloading. Switch to previously open editor tab.</li>
+                <li>"Goto definition" works on global variables as well</li>
+                <li>Added "go to last edit position" command to navigate back in history</li>
+            </ul>
+        </change>
+            <change version="2.0.7">
+            <ul>
+                <li>Fix copy and paste</li>
+            </ul>
+        </change>
+            <change version="2.0.6">
+            <ul>
+                <li>Lots of bug fixes</li>
+                <li>XML mode: new commands to expand selection to enclosing element; remove enclosing element</li>
+                <li>Updated templates to use bootstrap 3 (requires shared-resources-0.3.9)</li>
+            </ul>
+        </change>
+            <change version="2.0.5">
+            <ul>
+                <li>Added feature to search across all binary resources (XQueries, Javascript, CSS) in a project</li>
+                <li>Many small bug fixes. In particular, there were display issues when browsing resources</li>
+            </ul>
+        </change>
+            <change version="2.0.4">
+            <ul>
+                <li>Display of extended permissions in open/save dialogs</li>
+                <li>Editing of setuid, setgid and sticky bit permissions in Properties dialog</li>
+            </ul>
+        </change>
+            <change version="2.0.3">
+            <ul>
+                <li>Added navigation shortcuts to quickly switch to buffer; navigate available commands</li>
+                <li>Use emmet for HTML/XML/CSS</li>
+                <li>Updates and bug fixes for ace, slick grid</li>
+            </ul>
+        </change>
+            <change version="2.0.2">
+            <ul>
+                <li>Small fixes to variable completion</li>
+                <li>Experimental support for <a href="https://github.com/wolfgangmm/eXide/pull/36">git</a>.</li>
+            </ul>
+        </change>
+            <change version="2.0">
+            <ul>
+                <li>Context-sensitive code completion</li>
+                <li>Refactoring: extract function/variable</li>
+                <li>Refactoring: rename function/variable/XML tag</li>
+                <li>Quick fixes and code hints</li>
+                <li>Show raw result of queries in embedded browser</li>
+                <li>And more ...</li>
+            </ul>
+        </change>
+            <change version="1.0.14">
+            <ul>
+                <li>Improved outline view</li>
+                <li>Fixed quicksearch</li>
+                <li>Outline for CSS files</li>
+                <li>Set syntax to XQuery for code snippets passed in from demo app</li>
+                <li>Change indicator "*" not cleared properly after save</li>
+            </ul>
+        </change>
+            <change version="1.0.15">
+            <ul>
+                <li>Fixed new app templates</li>
+                <li>Removed annoying log output</li>
+                <li>Updated code snippets</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="2.4.5" path="eXide-2.4.5.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.4.4" path="eXide-2.4.4.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.4.3" path="eXide-2.4.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.4.2" path="eXide-2.4.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.4.1" path="eXide-2.4.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.4.0" path="eXide-2.4.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.3.0-SNAPSHOT"/>
+            </version>
+            <version version="2.3.4" path="eXide-2.3.4.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0"/>
+            </version>
+            <version version="2.3.3" path="eXide-2.3.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0"/>
+            </version>
+            <version version="2.3.2" path="eXide-2.3.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0" semver-max="3.2.0"/>
+            </version>
+            <version version="2.3.1" path="eXide-2.3.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0" semver-max="3.1.0"/>
+            </version>
+            <version version="2.3.0" path="eXide-2.3.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0" semver-max="3.1.0"/>
+            </version>
+            <version version="2.2.0" path="eXide-2.2.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.0" semver-max="3.1.0"/>
+            </version>
+            <version version="2.1.3" path="eXide-2.1.3.xar"/>
+            <version version="2.1.2" path="eXide-2.1.2.xar"/>
+            <version version="2.1.1" path="eXide-2.1.1.xar"/>
+            <version version="2.0" path="eXide-2.0.xar"/>
+            <version version="2.0.9" path="eXide-2.0.9.xar"/>
+            <version version="2.0.8" path="eXide-2.0.8.xar"/>
+            <version version="2.0.7" path="eXide-2.0.7.xar"/>
+            <version version="2.0.6" path="eXide-2.0.6.xar"/>
+            <version version="2.0.5" path="eXide-2.0.5.xar"/>
+            <version version="2.0.3" path="eXide-2.0.3.xar"/>
+            <version version="2.0.2" path="eXide-2.0.2.xar"/>
+            <version version="2.0.1" path="eXide-2.0.1.xar"/>
+            <version version="1.0.13" path="eXide-1.0.13.xar"/>
+            <version version="1.0.12" path="eXide-1.0.12.xar"/>
+            <version version="1.0.11" path="eXide-1.0.11.xar"/>
+            <version version="1.0.10" path="eXide-1.0.10.xar"/>
+            <version version="1.0.9" path="eXide-1.0.9.xar"/>
+            <version version="1.0.8" path="eXide-1.0.8.xar"/>
+            <version version="1.0.7" path="eXide-1.0.7.xar"/>
+        </other>
+    </app>
+    <app path="memsort-1.0-SNAPSHOT.xar" size="0">
+        <name>http://exist-db.org/xquery/memsort</name>
+        <title>Memsort XQuery Module</title>
+        <abbrev>memsort</abbrev>
+        <version>1.0-SNAPSHOT</version>
+        <requires processor="http://exist-db.org" semver-min="3.4.1"/>
+        <author>My Organisation</author>
+        <description>Memsort XQuery Module</description>
+        <website>https://my-organisation.com/exist-db/app</website>
+        <license>GNU Lesser General Public License, version 2.1</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="stanford-ner-0.2.xar" size="0">
+        <version>0.2</version>
+        <name>http://exist-db.org/apps/stanford-ner</name>
+        <title>Stanford Named Entity Recognition for eXist</title>
+        <abbrev>stanford-ner</abbrev>
+        <requires processor="http://exist-db.org" semver-min="2.2.1" semver-max="3.0.1"/>
+        <author>Wolfgang Meier</author>
+        <description>Integrates the Stanford Named Entity Recognition library into eXist-db.</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.3" path="stanford-ner-0.3.xar">
+                <requires processor="http://exist-db.org" semver-max="2.2"/>
+            </version>
+            <version version="0.2" path="stanford-ner-0.2.xar"/>
+            <version version="0.1" path="stanford-ner-0.1.xar"/>
+        </other>
+    </app>
+    <app path="existdb-dashboard-1.1.0-prod.xar" size="565170">
+        <name>http://exist-db.org/apps/existdb-dashboard</name>
+        <title>existdb-dashboard</title>
+        <abbrev>existdb-dashboard</abbrev>
+        <version>1.1.0</version>
+        <icon>existdb-dashboard-1.1.0-prod.svg</icon>
+        <author>Joern Turner</author>
+        <description>existdb-dashboard</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="1.0.0" path="existdb-dashboard-1.0.0.xar"/>
+        </other>
+    </app>
+    <app path="kuberam-scrum-board-0.2.1.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>Kuberam Scrum Board</description>
+        <website>http://kuberam.ro</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <name>http://kuberam.ro/ns/scrum-board</name>
+        <title>Kuberam Scrum Board</title>
+        <abbrev>kuberam-scrum-board</abbrev>
+        <version>0.2.1</version>
+        <requires processor="http://exist-db.org/"/>
+        <other>
+            <version version="0.2.0" path="kuberam-scrum-board-0.2.0.xar">
+                <requires processor="http://exist-db.org/"/>
+            </version>
+        </other>
+    </app>
+    <app path="expath-pdf-exist-lib-0.0.4.xar" size="0">
+        <author>Claudius Teodorescu</author>
+        <description>EXPath PDF Module Implementation</description>
+        <website>http://kuberam.ro/specs/expath/pdf/pdf.html</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <name>http://expath.org/ns/pdf</name>
+        <title>EXPath PDF Module Implementation</title>
+        <abbrev>expath-pdf-exist-lib</abbrev>
+        <version>0.0.4</version>
+        <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+        <other>
+            <version version="0.0.3" path="expath-pdf-exist-lib-0.0.3.xar">
+                <requires processor="http://exist-db.org/" semver-max="3.0.1"/>
+            </version>
+        </other>
+    </app>
+    <app path="exist-geospatial-0.1-SNAPSHOT.xar" size="0">
+        <name>http://exist-db.org/apps/geospatial</name>
+        <title>Geospatial indexing of GML 2D geometries for eXist-db</title>
+        <abbrev>geospatial</abbrev>
+        <version>0.1-SNAPSHOT</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.2"/>
+        <author>Pierrick Brihaye</author>
+        <author>Leif-Jöran Olsson</author>
+        <description>Geosptial indexing of GML 2D geometries for eXist-db.</description>
+        <website/>
+        <license>GNU-LGPLv2.1</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="usermanager-0.16.4-prod.xar" size="400759">
+        <name>http://exist-db.org/apps/usermanager</name>
+        <title>Usermanager</title>
+        <abbrev>usermanager</abbrev>
+        <version>0.16.4</version>
+        <icon>usermanager-0.16.4-prod.png</icon>
+        <author>Joern Turner</author>
+        <description>UserManager</description>
+        <website>https://github.com/eXist-db/usermanager</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="0.16.4">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>layout and responsiveness fixes</li>
+                <li>added logout option</li>
+            </ul>
+        </change>
+            <change version="0.16.3">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed missing dependency on functx</li>
+            </ul>
+        </change>
+            <change version="0.16.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed scrolling bug in detail pages</li>
+                <li>added missing license file</li>
+            </ul>
+        </change>
+            <change version="0.16.0">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixes #11 + #15 Problems with running in Safari</li>
+                <li>replaced jquery/velocity dependency with simple CSS animation</li>
+            </ul>
+        </change>
+            <change version="0.15.5">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixes #13 - dependency on console module removed.</li>
+            </ul>
+        </change>
+            <change version="0.15.4">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixes the regex for allowed group names</li>
+                <li>fixes URL path issues with reconfigured jetty e.g. using '/' instead of '/exist'</li>
+                <li>fixes a bug with editing groups without members</li>
+            </ul>
+        </change>
+            <change version="0.15.1">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>version fix</li>
+            </ul>
+        </change>
+            <change version="0.14.2">
+            <ul xmls="http://www.w3.org/1999/xhtml">
+                <li>fixed login</li>
+                <li>slightly changed layout and styling</li>
+                <li>seperated app container from actual usermanager component</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.16.3" path="usermanager-0.16.3-prod.xar"/>
+            <version version="0.16.2" path="usermanager-0.16.2-prod.xar"/>
+            <version version="0.15.5" path="usermanager-0.15.5-prod.xar"/>
+            <version version="0.15.1" path="usermanager-0.15.1-prod.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.15.0" path="usermanager-0.15.0-prod.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.14.2" path="usermanager-0.14.2-prod.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.14.0" path="usermanager-0.14.0.xar"/>
+            <version version="0.9.0" path="usermanager-0.9.0-prod.xar"/>
+        </other>
+    </app>
+    <app path="expath-bin-module-1.0-SNAPSHOT.xar" size="0">
+        <name>http://expath.org/ns/binary</name>
+        <title>EXPath Bin Module</title>
+        <abbrev>expath-bin-module</abbrev>
+        <version>1.0-SNAPSHOT</version>
+        <requires processor="http://exist-db.org" semver-min="3.1.0"/>
+        <author>eXist-db</author>
+        <description>EXPath Bin Module</description>
+        <website>https://www.github.com/exist-db/expath-bin-module</website>
+        <license>The BSD 3-Clause License</license>
+        <type>library</type>
+        <changelog/>
+        <other>
+            <version version="1.0" path="expath-bin-module-1.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.4.0"/>
+            </version>
+            <version version="1.0.1" path="expath-bin-module-1.0.1.xar">
+                <requires processor="http://exist-db.org" semver-min="3.4.1"/>
+            </version>
+        </other>
+    </app>
+    <app path="existdb.xmlcalabash-0.1.6.xar" size="0">
+        <name>http://exist-db.org/xproc</name>
+        <title>XProc Module</title>
+        <abbrev>XProc</abbrev>
+        <version>0.1.6</version>
+        <requires processor="http://exist-db.org/"/>
+        <icon>existdb.xmlcalabash-0.1.6.png</icon>
+        <author>Dmitriy Shabanov</author>
+        <description>XProc Module</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="exist-sparql-0.1-SNAPSHOT.xar" size="0">
+        <name>http://exist-db.org/xquery/sparql</name>
+        <title>SPARQL and RDF indexing for eXist-db</title>
+        <abbrev>exist-sparql</abbrev>
+        <version>0.1-SNAPSHOT</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+        <author>eXist-db</author>
+        <description>SPARQL and RDF indexing for eXist-db</description>
+        <website>&gt;https://www.github.com/ljo/exist-sparql</website>
+        <license>GNU General Public License, version 3</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="functx-1.0.xar" size="26053">
+        <name>http://www.functx.com</name>
+        <title>FunctX library</title>
+        <abbrev>functx</abbrev>
+        <version>1.0</version>
+        <author>Priscilla Walmsley</author>
+        <description>The FunctX XQuery/XSLT 2.0 function library is a set of reusable functions for XQuery 1.0 and XSLT 2.0. The project itself is an open source application and framework for developers to create function libraries. </description>
+        <website>http://www.xqueryfunctions.com/</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="exist-documentation-4.0.2.xar" size="3723721">
+        <icon>exist-documentation-4.0.2.png</icon>
+        <name>http://exist-db.org/apps/doc</name>
+        <title>eXist-db Documentation</title>
+        <abbrev>exist-documentation</abbrev>
+        <version>4.0.2</version>
+        <requires processor="http://exist-db.org" semver-min="4.2.0"/>
+        <author>eXist-db</author>
+        <description/>
+        <website>https://www.github.com/exist-db/documentation</website>
+        <license>GNU Lesser General Public License, version 2.1</license>
+        <type>application</type>
+        <note>Note for users of eXist 2.x: When upgrading, please make sure you also updated the shared-resources package to &gt; 0.4.0.</note>
+        <changelog/>
+        <other>
+            <version version="4.0.0" path="exist-documentation-4.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="4.0.0"/>
+            </version>
+            <version version="3.0.0" path="exist-documentation-3.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.5.0"/>
+            </version>
+            <version version="0.6.1" path="exist-documentation-0.6.1.xar"/>
+            <version version="0.6.0" path="exist-documentation-0.6.0.xar"/>
+            <version version="0.5.0" path="doc-0.5.0.xar"/>
+            <version version="0.4.9" path="doc-0.4.9.xar"/>
+            <version version="0.4.8" path="doc-0.4.8.xar"/>
+            <version version="0.4.7" path="doc-0.4.7.xar"/>
+            <version version="0.4.6" path="doc-0.4.6.xar"/>
+            <version version="0.4.5" path="doc-0.4.5.xar"/>
+            <version version="0.4.4" path="doc-0.4.4.xar"/>
+            <version version="0.4.3" path="doc-0.4.3.xar"/>
+            <version version="0.4.2" path="doc-0.4.2.xar"/>
+            <version version="0.4.1" path="doc-0.4.1.xar"/>
+            <version version="0.4.0" path="doc-0.4.0.xar"/>
+            <version version="0.3" path="doc-0.3.xar"/>
+            <version version="0.3.4" path="doc-0.3.4.xar"/>
+            <version version="0.3.3" path="doc-0.3.3.xar"/>
+            <version version="0.3.2" path="doc-0.3.2.xar"/>
+            <version version="0.3.1" path="doc-0.3.1.xar"/>
+            <version version="0.2.9" path="doc-0.2.9.xar"/>
+            <version version="0.2.8" path="doc-0.2.8.xar"/>
+            <version version="0.2.7" path="doc-0.2.7.xar"/>
+            <version version="0.2.6" path="doc-0.2.6.xar"/>
+            <version version="0.2.4" path="doc-0.2.4.xar"/>
+            <version version="0.2.3" path="doc-0.2.3.xar"/>
+        </other>
+    </app>
+    <app path="tei-publisher-3.0.1.xar" size="17655408">
+        <name>http://existsolutions.com/apps/tei-publisher</name>
+        <title>TEI Publisher</title>
+        <abbrev>tei-publisher</abbrev>
+        <version>3.0.1</version>
+        <requires processor="http://exist-db.org" semver-min="3.6.0"/>
+        <icon>tei-publisher-3.0.1.png</icon>
+        <author>Wolfgang Meier</author>
+        <description>TEI Publisher Application</description>
+        <website>https://teipublisher.com</website>
+        <license>GPLv3</license>
+        <type>application</type>
+        <note>Generated apps may fail after updating. Run .../myapp/modules/lib/regenerate.xql in browser or eXide once
+        to update your ODDs.</note>
+        <changelog>
+            <change version="3.0.1">
+            <ul>
+                <li>add language selector</li>
+                <li>exclude nested divs in search to get more correct search results</li>
+                <li>fix wrong page displayed when viewing search results in paged view</li>
+                <li>fix error when navigating back in browser history after search</li>
+                <li>fix parsing of processing instruction: depth and fill should be numbers</li>
+                <li>correct offset when scrolling to highlighted search result</li>
+                <li>support copy&amp;paste in odd editor</li>
+            </ul>
+        </change>
+            <change version="3.0.0">
+            <ul>
+                <li>adds a visual editor for processing models</li>
+                <li>support for formatting non-TEI documents (see the documentation, which is now in docbook)</li>
+            </ul>
+        </change>
+            <change version="2.2.0">
+            <ul>
+                <li>Improved responsiveness: navigation and toc work on mobile viewer</li>
+                <li>Drop /works prefix from document paths to simplify URLs</li>
+                <li>Renditions defined in tei header were no longer applied</li>
+                <li>Fix image resolving for generated apps</li>
+                <li>Allow documents to be deleted via UI</li>
+                <li>Include direct link to uploaded document</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="3.0.0" path="tei-publisher-3.0.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.6.0"/>
+            </version>
+            <version version="2.2.0" path="tei-publisher-2.2.0.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.5" path="tei-publisher-2.0.5.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.4" path="tei-publisher-2.0.4.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.3" path="tei-publisher-app-2.0.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="2.0.2" path="tei-publisher-app-2.0.2.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+        </other>
+    </app>
+    <app path="couchbase-0.5.5.xar" size="0">
+        <icon>couchbase-0.5.5.png</icon>
+        <name>http://exist-db.org/couchbase</name>
+        <title>Couchbase driver</title>
+        <abbrev>couchbase</abbrev>
+        <version>0.5.5</version>
+        <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+        <author>Dannes Wessels</author>
+        <description>The Couchbase Server driver extension for eXist-db provides access to functions and features of the Couchbase Server
+        using the original Couchbase java client. This extension has NOT been developed by CouchBase and is therefore NOT an offical
+        driver nor is it supported by CouchBase.</description>
+        <website>https://github.com/weXsol/Couchbase</website>
+        <license>GNU-LGPL</license>
+        <type>library</type>
+        <note>When upgrading: please first uninstall all previous versions and restart eXist-db.</note>
+        <changelog>
+            <change version="0.5.5">
+            <ul>
+                <li>Another improvement on JSON conversion: Support of more datatypes.</li>
+            </ul>
+        </change>
+            <change version="0.5.4">
+            <ul>
+                <li>Improved conversion of XQuery-JSON objects to Couchbase-JSON objects and vice versa.</li>
+                <li>Upgrade to Java driver version v2.4.3.</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.5.4" path="couchbase-0.5.4.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+            <version version="0.5.3" path="couchbase-0.5.3.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.3"/>
+            </version>
+        </other>
+    </app>
+    <app path="markdown-0.6.xar" size="11863">
+        <name>http://exist-db.org/apps/markdown</name>
+        <title>Markdown Parser in XQuery</title>
+        <abbrev>markdown</abbrev>
+        <version>0.6</version>
+        <requires processor="http://exist-db.org" semver-min="3.6.0"/>
+        <author>Wolfgang Meier</author>
+        <description>A markdown parser written in XQuery.</description>
+        <website>https://github.com/wolfgangmm/exist-markdown</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="0.5">
+            <ul>
+                <li>Add TEI output alongside original HTML output</li>
+                <li>Add support for task lists</li>
+                <li>Fix handling of quotes</li>
+                <li>Fix markdown module namespace prefix collision with metadata module</li>
+            </ul>
+        </change>
+            <change version="0.4">
+            <ul>
+                <li>Allow markdown to occur inside HTML tags</li>
+            </ul>
+        </change>
+            <change version="0.3">
+            <ul>
+                <li>Support HTML blocks and inline HTML</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.5" path="markdown-0.5.xar"/>
+            <version version="0.4" path="markdown-0.4.xar"/>
+            <version version="0.3" path="markdown-0.3.xar"/>
+            <version version="0.2" path="markdown-0.2.xar"/>
+        </other>
+    </app>
+    <app path="preconference-0.2.7.xar" size="0">
+        <name>http://exist-db.org/apps/preconferece-2017</name>
+        <title>eXist-db XML Prague pre-conference meetup 2017</title>
+        <abbrev>preconference-2017</abbrev>
+        <version>0.2.7</version>
+        <author>Dannes Wessels</author>
+        <author>Leif-Jöran Olsson</author>
+        <description>The eXist-db pre-conference is the traditional eXist-db users meeting during the XML Prague conference</description>
+        <website>http://preconference.info/</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other/>
+    </app>
+    <app path="expath-crypto-exist-lib-demos-0.2.7.xar" size="0">
+        <icon>expath-crypto-exist-lib-demos-0.2.7.png</icon>
+        <name>http://exist-db.org/ns/expath-crypto</name>
+        <title>EXPath Cryptographic Module Demos</title>
+        <abbrev>expath-crypto-exist-lib-demos</abbrev>
+        <version>0.2.7</version>
+        <requires processor="http://exist-db.org/"/>
+        <author>Claudius Teodorescu</author>
+        <description>EXPath Cryptographic Module Demos</description>
+        <website/>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog/>
+        <other>
+            <version version="0.2.6" path="expath-crypto-exist-lib-demos-0.2.6.xar">
+                <requires processor="http://exist-db.org/"/>
+            </version>
+            <version version="0.2.4" path="expath-crypto-exist-demos-0.2.4.xar">
+                <requires processor="http://exist-db.org/"/>
+            </version>
+        </other>
+    </app>
+    <app path="expath-crypto-exist-lib-0.5.xar" size="117216">
+        <author>Claudius Teodorescu</author>
+        <description/>
+        <website>http://expath.org/spec/crypto</website>
+        <license>GNU LGPL v2.1</license>
+        <type>library</type>
+        <changelog/>
+        <name>http://expath.org/ns/crypto</name>
+        <title>EXPath Cryptographic Module Implementation</title>
+        <abbrev>expath-crypto-exist-lib</abbrev>
+        <version>0.5</version>
+        <requires processor="http://exist-db.org" semver-min="3.5.0"/>
+        <other>
+            <version version="0.3.5" path="expath-crypto-exist-lib-0.3.5.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+            <version version="0.3.4" path="expath-crypto-exist-lib-0.3.4.xar">
+                <requires processor="http://exist-db.org" semver-min="2.3.0"/>
+            </version>
+        </other>
+    </app>
+    <app path="monex-0.9.16.xar" size="1129557">
+        <name>http://exist-db.org/apps/monex</name>
+        <title>Monitoring and Profiling for eXist (Monex)</title>
+        <abbrev>monex</abbrev>
+        <version>0.9.16</version>
+        <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+        <icon>monex-0.9.16.png</icon>
+        <author>Wolfgang Meier</author>
+        <author>Joe Wicentowski</author>
+        <author>Lars Windauer</author>
+        <description>An application for monitoring, profiling and inspecting a running eXist-db instance.</description>
+        <website>https://github.com/eXist-db/monex</website>
+        <license>GNU-LGPL</license>
+        <type>application</type>
+        <changelog>
+            <change version="0.4">
+            <ul>
+                <li>Send alerts only to receivers watching the affected instance</li>
+                <li>Store last ping status in db; send alerts only if status changed</li>
+            </ul>
+        </change>
+            <change version="0.5">
+            <ul>
+                <li>New function console:dump prints all variables in the local variable stack, which are visible at the point the statement appears in the code.</li>
+                <li>Info popup in remote console causes browser display issues.</li>
+            </ul>
+        </change>
+            <change version="0.9.1">
+            <ul>
+                <li>Fix eXist dependency to work with 3.0RC2 and final</li>
+            </ul>
+        </change>
+            <change version="0.9.4">
+            <ul>
+                <li>Update console logging to match changes in internal eXist API</li>
+                <li>Add hipchat notifications</li>
+            </ul>
+        </change>
+            <change version="0.9.6">
+            <ul>
+                <li>New "Tare" button in Query Profiling pane factors out external processes from results</li>
+            </ul>
+        </change>
+            <change version="0.9.7">
+            <ul>
+                <li>Sync source with GitHub repository</li>
+            </ul>
+        </change>
+            <change version="0.9.8">
+            <ul>
+                <li>Show version of Java in the Monitoring &gt; System Information pane</li>
+                <li>Removed package's semver-max to ensure compatibility with all eXist 3.x releases</li>
+            </ul>
+        </change>
+            <change version="0.9.9">
+            <ul>
+                <li>Upgraded included jetty jars to 9.4.6</li>
+                <li>Updated eXist dependency to require v3.5.0</li>
+            </ul>
+        </change>
+            <change version="0.9.10">
+            <ul>
+                <li>Improved build process</li>
+            </ul>
+        </change>
+            <change version="0.9.11">
+            <ul>
+                <li>Updated: Links to monex's GitHub repository - <a href="https://github.com/eXist-db/monex/issues/39">#39</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="0.9.12">
+            <ul>
+                <li>Move jetty jars to eXist-db to prevent version conflicts</li>
+            </ul>
+        </change>
+            <change version="0.9.13">
+            <ul>
+                <li>Improved compatibility with Tomcat 7 - <a href="https://github.com/eXist-db/monex/issues/9">#9</a>
+                    </li>
+                <li>Improved resolution of dependencies during build and build documentation - <a href="https://github.com/eXist-db/monex/pull/16">#16</a>
+                    </li>
+                <li>Removed old version warnings <a href="https://github.com/eXist-db/monex/issues/51">#51</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="0.9.14">
+            <ul>
+                <li>Hotfix - <a href="https://github.com/eXist-db/monex/issues/57">#57</a>
+                    </li>
+            </ul>
+        </change>
+            <change version="0.9.15">
+            <ul>
+                <li>Choose shorter period for ping to keep the websocket connection open in Remote Console (was 5s, now .5s)</li>
+            </ul>
+        </change>
+            <change version="0.9.16">
+            <ul>
+                <li>Fix release</li>
+            </ul>
+        </change>
+        </changelog>
+        <other>
+            <version version="0.9" path="monex-0.9.xar">
+                <requires processor="http://exist-db.org" semver-min="2.1.0" semver-max="3.0.1"/>
+            </version>
+            <version version="0.9.15" path="monex-0.9.15.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.9.14" path="monex-0.9.14.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.9.13" path="monex-0.9.13.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.9.12" path="monex-0.9.12.xar">
+                <requires processor="http://exist-db.org" semver-min="3.7.0-SNAPSHOT"/>
+            </version>
+            <version version="0.9.11" path="monex-0.9.11.xar">
+                <requires processor="http://exist-db.org" semver-min="3.4.99"/>
+            </version>
+            <version version="0.9.10" path="monex-0.9.10.xar">
+                <requires processor="http://exist-db.org" semver-min="3.4.99"/>
+            </version>
+            <version version="0.9.8" path="monex-0.9.8.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2"/>
+            </version>
+            <version version="0.9.7" path="monex-0.9.7.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2" semver-max="3.2.0"/>
+            </version>
+            <version version="0.9.6" path="monex-0.9.6.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2" semver-max="3.1.0"/>
+            </version>
+            <version version="0.9.5" path="monex-0.9.5.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2" semver-max="3.1.0"/>
+            </version>
+            <version version="0.9.4" path="monex-0.9.4.xar">
+                <requires processor="http://exist-db.org" semver-min="3.0.2" semver-max="3.1.0"/>
+            </version>
+            <version version="0.9.3" path="monex-0.9.3.xar">
+                <requires processor="http://exist-db.org" semver-min="2.1.0" semver-max="3.1.0"/>
+            </version>
+            <version version="0.9.1" path="monex-0.9.1.xar">
+                <requires processor="http://exist-db.org" semver-min="2.1.0" semver-max="3.1.0"/>
+            </version>
+            <version version="0.8" path="monex-0.8.xar">
+                <requires processor="http://exist-db.org" semver-min="2.1.0" semver-max="3.0.0"/>
+            </version>
+            <version version="0.7" path="monex-0.7.xar"/>
+            <version version="0.6" path="monex-0.6.xar"/>
+            <version version="0.5" path="monex-0.5.xar"/>
+            <version version="0.4" path="monex-0.4.xar"/>
+            <version version="0.3" path="monex-0.3.xar"/>
+            <version version="0.2" path="monex-0.2.xar"/>
+        </other>
+    </app>
+</apps>
